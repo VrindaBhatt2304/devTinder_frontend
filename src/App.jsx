@@ -6,6 +6,7 @@ import SignUp from "./Pages/SignUp"
 import Feed from "./Pages/Feed"
 import Connections from "./Pages/Connections"
 import Requests from "./Pages/Requests"
+import Chat from "./Pages/Chat"
 import { Provider } from "react-redux"
 import appStore from "./utils/appStore"
 
@@ -24,6 +25,7 @@ function App() {
         <Route path="feed" element={<Feed/>}/>
         <Route path="connections" element={<Connections/>}/>
         <Route path="requests" element={<Requests/>}/>
+        <Route path="chat/:targetUserId" element={<Chat/>}/>
       </Route>
     </Routes>
     </BrowserRouter>

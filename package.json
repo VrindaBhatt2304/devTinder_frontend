@@ -15,7 +15,8 @@
     "react": "^19.2.6",
     "react-dom": "^19.2.6",
     "react-redux": "^9.2.0",
-    "react-router-dom": "^7.15.0"
+    "react-router-dom": "^7.15.0",
+    "socket.io-client": "^4.8.3"
   },
   "devDependencies": {
     "@babel/core": "^7.29.0",
@@ -34,5 +35,17 @@
     "postcss": "^8.5.14",
     "tailwindcss": "^3.4.19",
     "vite": "^8.0.12"
-  }
+  },
+  "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
+  "main": "eslint.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VrindaBhatt2304/devTinder_frontend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VrindaBhatt2304/devTinder_frontend/issues"
+  },
+  "homepage": "https://github.com/VrindaBhatt2304/devTinder_frontend#readme"
 }
