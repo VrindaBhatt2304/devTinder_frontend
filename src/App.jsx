@@ -9,6 +9,7 @@ import Requests from "./Pages/Requests"
 import Chat from "./Pages/Chat"
 import { Provider } from "react-redux"
 import appStore from "./utils/appStore"
+import MainBody from "./Pages/MainBody"
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
     
     <Routes>
       <Route path="/" element={<Body/>}>
-        <Route index element={<Feed/>} />
+        <Route index element={<MainBody />} />
         <Route path="profile" element={<Profile/>}/>
         <Route path="login" element={<Login/>}/>
         <Route path="signup" element={<SignUp/>}/>
